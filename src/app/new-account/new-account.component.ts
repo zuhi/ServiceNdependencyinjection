@@ -23,7 +23,7 @@ export class NewAccountComponent{
    // service.logStatusChange(accountStatus);
    console.log("Inside new account");
     //console.log('A server status changesd, new status: ' + accountStatus);
-    this.loggingService.logStatusChange(accountStatus);
+    //this.loggingService.logStatusChange(accountStatus);
     this.accountsService.addAccount(accountName, accountStatus);
  
 
